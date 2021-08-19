@@ -23,7 +23,6 @@ I  wanted to convert a bunch of podcast MP3's into MP4's for youtube (primarily 
 - Save an image named poster.png (1920x1080) to the **ffmpeg-audio-to-video** project root
 - Run the following command from  the **ffmpeg-audio-to-video** project root `bash create-video.sh`
 - When this is complete, you should have file named posterloop7hr.mp4 in your project root.
-- 
 ### Running the script
 
 - In the terminal, navigate to the **ffmpeg-audio-to-video** project root
