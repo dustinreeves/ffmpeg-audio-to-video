@@ -8,4 +8,3 @@ ffmpeg  -i posterloop3hr.mp4 -i "$input" -shortest -c:a copy -c:v copy -y "outpu
 #rm -rf "output/$fname.mp4"
 fi
 done
-g
