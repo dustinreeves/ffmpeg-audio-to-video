@@ -7,5 +7,4 @@ ffmpeg -loop 1 -i $p -c:v libx264 -t 15 posterloop1024.mp4
 #make a 7hour copy (lower encoding time)
 ffmpeg -stream_loop 720 -i posterloop1024.mp4 -c:v copy -y posterloop7hr.mp4
 rm posterloop1024.mp4
-done
-
+fi
