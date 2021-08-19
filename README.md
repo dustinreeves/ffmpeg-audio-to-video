@@ -22,12 +22,12 @@ There's a certain video hosting platform that will auto-caption and/or auto gene
 
 By default, the output video is a blank image throughout its duration. If you'd like to create a custom image to be displayed on the video, follow the steps below:
 
-- Save an image to the **ffmpeg-audio-to-video** project root
-- Run the following command from  the **ffmpeg-audio-to-video** project root `ffmpeg -i YOURFILE.jpg poster.mpg`
+- Save an image named poster.png (1920x1080) to the **ffmpeg-audio-to-video** project root
+- Run the following command from  the **ffmpeg-audio-to-video** project root `bash create-video.sh`
 
 Future conversions will now feature your updated poster image.
 
 ### Running the script
 
 - In the terminal, navigate to the **ffmpeg-audio-to-video** project root
-- Run the following command `bash create.sh`
+- Run the following command `bash create-audio-video-merged.sh`
